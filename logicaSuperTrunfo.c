@@ -106,7 +106,7 @@ int main() {
     printf("Carta 2 - %s (%c): %d\n", NomeCidade2, Estado2, Populacao2);
     printf("--------------------------------------------------\n");
     
-    // Lógica correta utilizando if, else if e else para tratar empates
+    // Lógica utilizando if, else if e else para tratar empates
     if (Populacao1 > Populacao2) {
         printf("Resultado: Carta 1 (%s) venceu!\n", NomeCidade1);
     } 
